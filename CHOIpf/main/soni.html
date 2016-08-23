@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 <head>
     <meta charset="UTF-8">
+
     <title>소니코리아 최신 기술 및 소식 |가전|엔트테인먼트| soniKR</title>
 <style type="text/css">
+    @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
     *{margin:0; padding:0; text-decoration:none; list-style:none;}
     .soniheader {border:1px #F00 solid; width:100%; height:64px; background-color: #000;}
     .soninav {width:1160px; margin:0 auto; height:64px;}
@@ -17,7 +19,15 @@
     .subserch img {width:11px; height:11px; padding-left: 5px; }
     .soninav .submenu {float:right;}
     .soninav .submenu li a {font-size:11px;}
-    .mainvisual .mainpic {background-image: url('../images/mainvisu.jpg'); height:640px;}
+    .mainvisual{background-image: url('../images/mainvisu.jpg'); center; height:640px;}
+    .picright {color:#fff; text-align: right; margin:0 auto;}
+    .t2,.p2  {font-family: 'Nanum Gothic', '맑은 고딕'}
+    .t1 {font-size: 0.9375em; line-height: 1.46667;}
+    .t2 {font-size: 3em; line-height: 1.125; margin-bottom:20px;}
+    .p2 {font-size: 0.9375em; line-height: 1.46667; margin-bottom:12px;}
+    .mpic1 {margin:0 auto; width:1160px; position:relative;}
+    .mpic2 {position:absolute; right:0; top:0; width:574px; height:640px; border:1px #F00 solid; font-style: normal; }
+    .picright {padding: 54px 64px 52px 58px; margin-top: 180px;}
 </style>
 
 </head>
@@ -27,7 +37,7 @@
 <body>
     <!-- 상단 네비게이션 마크업-->
 <div class="soniheader">
-    <div class="soninav">
+    <div class="soninav"> 
         <div class="sonihlogo"><img src="../images/sonilogo.png"></div>
         <ul class="sonimenu">
             <li><a href="">스토어</a></li>
@@ -39,12 +49,26 @@
         <ul class="submenu">
             <li><a class="subserch">검색<img src="../images/serchgg.png"></a></li>
             <li class="subsite"><a>소니사이트</a></li>
+
         </ul>
     </div>
 </div>
     <!-- 상단네비게이션 마크업 끝 -->
     <div class="mainvisual">
-        <div class="mainpic"></div>
+        <div class="mpic1">
+            <div class="mpic2">
+                <div class="mainpic">
+                    <div class="picright">
+                        <h2 class="t1">Xperia™ X Performance</h2>
+                        <h2 class="t2">The masterpiece</h2>
+                        <p class="p2">스타일의 완성</p>
+                        <div class="linkgroup">
+                            <a href="" class="contr">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
